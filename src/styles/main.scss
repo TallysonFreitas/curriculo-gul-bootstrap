@@ -1,0 +1,102 @@
+@use 'variaveis';
+
+body{
+    background-color: variaveis.$cordeFundo;
+    font-family: 'roboto';
+}
+
+#cabecalho{
+    background-color: variaveis.$corCabecalho;
+    h1{
+        color: variaveis.$cordeFundo;
+        font-weight: bold;
+        font-family: lobster;
+    }
+}
+
+.nav{
+    .nav-item{
+        .nav-link{
+            color: variaveis.$cordeFundo;
+            font-weight: bold;
+        }
+        .nav-link.active{
+            color: variaveis.$corTexto;
+            background-color: variaveis.$corItem;
+        }
+    }
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-item{
+        text-align: center;
+        text-decoration: none;
+        width: 300px;
+        background-color: variaveis.$corCabecalho;
+        padding: 8px 20px;
+        border-radius: 16px;
+        margin-bottom: 20px;
+        color: white;
+        transition: all ease .3s;
+        border: 3px solid variaveis.$corCabecalho;
+        font-weight: bold;
+        &:hover{
+            color: variaveis.$corTexto;
+            background-color: variaveis.$cordeFundo;
+        }
+    }
+}
+
+.icon{
+    img{
+        max-width: 32px;
+        transition: all ease .3s;
+        &:hover{
+            scale:1.2;
+        }
+    }
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    &-item{
+        font-family: lobster;
+        color: variaveis.$corTexto;
+        border-bottom: 1px solid variaveis.$corTexto;
+        padding: 10px;
+    }
+}
+
+.carousel-caption{
+    .tf{
+        font-weight: bold;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.512);
+        transition: all ease 0.3s;
+        &:hover{
+            color: variaveis.$corTexto;
+            box-shadow: none;
+        }
+    }
+}
+
+.btn-bk{
+    background-color: #F5EBDC;
+    color: variaveis.$corTexto;
+    &:hover{
+        background-color: darken(#F5EBDC,20);
+        color: white;
+    }
+}
+
+.carousel-item{
+    max-height: 490px;
+    overflow-y: hidden;
+    img{
+        width: 100%;
+    }
+}
