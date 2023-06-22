@@ -12,12 +12,15 @@
     <title>Tallyson</title>
 </head>
 <body>
-    <header id="cabecalho" class="sticky-top">
+    <header id="cabecalho" class="sticky-top navbar-expand-lg">
         <div class="navbar">
             <div class="container">
                 <h1>Front-end developer</h1>
-                <nav class="justify-content-end">
-                    <ul class="nav nav-pills">
+
+                <button type="button" data-bs-target="#menu" data-bs-toggle="collapse" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+                <nav id="menu" class="justify-content-end collapse navbar-collapse">
+                    <ul class="nav nav-pills d-block d-lg-flex">
                         <li class="nav-item">
                             <a href="#portifolio" class="nav-link fw-bold active">Portifólio</a>
                         </li>
@@ -97,7 +100,7 @@
                 </div>
             </div>
         </section>
-        <section id="experiencia">
+        <section id="experiencia" class="">
             <div class="container">
                 <div class="d-flex justify-content-center">
                     <h3 class="text-center mt-3 mb-3 titulo">Experiencia</h3>
