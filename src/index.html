@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF fw-bold-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,143 +19,304 @@
                 <nav class="justify-content-end">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a href="#portifolio" class="nav-link active">Portifólio</a>
+                            <a href="#portifolio" class="nav-link fw-bold active">Portifólio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Experiência</a>
+                            <a href="#experiencia" class="nav-link fw-bold">Experiência</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Tecnologias</a>
+                            <a href="#tecnologias" class="nav-link fw-bold">Tecnologias</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contato</a>
+                            <a href="#contato" class="nav-link fw-bold">Contato</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <section id="Portifólio">
-        <div class="container">
-            <div class="row">
-                <div class="titulo">
-                    <h2 class="text-center mt-3 mb-3 titulo-item">Portifolio</h2>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="portifolio">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="text-center mt-3 mb-3 titulo">Portifolio</h2>
+                    </div>
+                    <p class="text-center">Cheque alguns dos meus projetos:</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="carousel slide" data-bs-ride="carousel" id="carrossel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/BK.png" class="w-100 d-block" alt="">
-                            <div class="carousel-caption">
-                                <a target="_blank" href="https://burguer-king-mu.vercel.app/" class="btn btn-bk tf">Visitar</a>
+                <div class="row">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carrossel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/BK.png" class="w-100 d-block" alt="">
+                                <div class="carousel-caption">
+                                    <a target="_blank" href="https://burguer-king-mu.vercel.app/" class="btn btn-bk tf fw-bold">Visitar</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/restaurante.png" class="w-100 d-block" alt="">
-                            <div class="carousel-caption">
-                                <a target="_blank" href="https://restaurante-ebac-pi.vercel.app/" class="btn btn-bk tf">Visitar</a>
+                            <div class="carousel-item">
+                                <img src="img/restaurante.png" class="w-100 d-block" alt="">
+                                <div class="carousel-caption">
+                                    <a target="_blank" href="https://restaurante-ebac-pi.vercel.app/" class="btn btn-bk tf fw-bold">Visitar</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Curriculo.png" class="w-100 d-block" alt="">
-                            <div class="carousel-caption ">
-                                <a target="_blank" href="https://curriculo-tentativa-1.vercel.app/" class="btn btn-danger tf">Visitar</a>
+                            <div class="carousel-item">
+                                <img src="img/Curriculo.png" class="w-100 d-block" alt="">
+                                <div class="carousel-caption ">
+                                    <a target="_blank" href="https://curriculo-tentativa-1.vercel.app/" class="btn btn-danger tf fw-bold">Visitar</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/EBAC-motors.png" class="w-100 d-block" alt="">
-                            <div class="carousel-caption">
-                                <a target="_blank" href="https://loja-de-carros-iota.vercel.app/" class="btn btn-primary tf">Visitar</a>
+                            <div class="carousel-item">
+                                <img src="img/EBAC-motors.png" class="w-100 d-block" alt="">
+                                <div class="carousel-caption">
+                                    <a target="_blank" href="https://loja-de-carros-iota.vercel.app/" class="btn btn-primary tf fw-bold">Visitar</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Loja-games.png" class="w-100 d-block" alt="">
-                            <div class="carousel-caption">
-                                <a target="_blank" href="https://loja-game-ten.vercel.app/" class="btn btn-warning tf">Visitar</a>
+                            <div class="carousel-item">
+                                <img src="img/Loja-games.png" class="w-100 d-block" alt="">
+                                <div class="carousel-caption">
+                                    <a target="_blank" href="https://loja-game-ten.vercel.app/" class="btn btn-warning tf fw-bold">Visitar</a>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <button type="button" class="carousel-control-prev" data-bs-target="#carrossel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button type="button" class="carousel-control-next" data-bs-target="#carrossel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-slide-to="0" data-bs-target="#carrossel" class="active"></button>
-                            <button type="button" data-bs-slide-to="1" data-bs-target="#carrossel"></button>
-                            <button type="button" data-bs-slide-to="2" data-bs-target="#carrossel"></button>
-                            <button type="button" data-bs-slide-to="3" data-bs-target="#carrossel"></button>
-                            <button type="button" data-bs-slide-to="4" data-bs-target="#carrossel"></button>
+                            <div>
+                                <button type="button" class="carousel-control-prev" data-bs-target="#carrossel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button type="button" class="carousel-control-next" data-bs-target="#carrossel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-slide-to="0" data-bs-target="#carrossel" class="active"></button>
+                                <button type="button" data-bs-slide-to="1" data-bs-target="#carrossel"></button>
+                                <button type="button" data-bs-slide-to="2" data-bs-target="#carrossel"></button>
+                                <button type="button" data-bs-slide-to="3" data-bs-target="#carrossel"></button>
+                                <button type="button" data-bs-slide-to="4" data-bs-target="#carrossel"></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="experiencia">
-        <div class="container">
-            <div class="titulo">
-                <h3 class="text-center mt-3 mb-3 titulo-item">Experiencia</h3>
-            </div>
-            <div class="row">
-                
-            </div>
-        </div>
-    </section>
-    <section id="contato">
-        <div class="container">
-            <div class="titulo">
-                <h3 class="text-center mt-3 mb-3 titulo-item">Contato</h3>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <img src="https://placeholder.com/96x96" alt="">
-                    <h5>Tallyson Vieira Freitas</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, explicabo corporis! Recusandae consequuntur ipsam aliquam, iusto obcaecati culpa iure incidunt temporibus possimus sequi facere laboriosam veniam nam vitae esse quisquam.</p>
-                    <ul class="nav d-flex justify-content-around col-8 icones">
-                        <li class="nav-item">
-                            <a class="nav-item icon" href="https://www.instagram.com/tallysonfreits_/" target="_blank">
-                                <img class="w-100 d-block" src="img/instagram.png" alt="">
-                            </a> 
-                            <p>Instagram</p>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item icon" href="tallyson.eu@outlook.com" target="_blank">
-                                <img class="w-100 d-block" src="img/email.png" alt="">
-                            </a> 
-                            <p>Email</p>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item icon" href="https://github.com/TallysonFreitas" target="_blank">
-                                <img class="w-100 d-block" src="img/github-sign.png" alt="">
-                            </a> 
-                            <p>Github</p>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item icon" href="https://www.linkedin.com/in/tallyson-vieira-freitas-06a428207/" target="_blank">
-                                <img class="w-100 d-block" src="img/linkedin.png" alt="">
-                            </a> 
-                            <p>Linkedin</p>
-                        </li>
-                    </ul>
+        </section>
+        <section id="experiencia">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h3 class="text-center mt-3 mb-3 titulo">Experiencia</h3>
                 </div>
-                <div class="col-md-4 botao">
-                    <div class="titulo">
-                        <h5 class="titulo-item">
-                            Personalidade
-                        <h5>
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <div class="card box-shadow">
+                            <img src="img/despaired-2261021_1280.jpg" alt="">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Em busca do primeiro emprego</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti rerum reprehenderit ex quia, deleniti culpa eligendi voluptatibus inventore veniam magnam ipsa dolores perspiciatis cumque natus adipisci dolor facere debitis assumenda!</p>
+                            </div>
+                        </div>
                     </div>
-                    <a class="botao-item" href="">Sob Pressao</a>
-                    <a class="botao-item" href="">Proatividade</a>
-                    <a class="botao-item" href="">Comunicabilidade</a>
-                    <a class="botao-item" href="">Bom-humor</a>
+                    <div class="col-lg-6 mb-3">
+                        <div class="card box-shadow">
+                            <img src="img/laptop-3196481_1280.jpg" alt="">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Criacao de sites Freelance</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti rerum reprehenderit ex quia, deleniti culpa eligendi voluptatibus inventore veniam magnam ipsa dolores perspiciatis cumque natus adipisci dolor facere debitis assumenda!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="tecnologias">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <h3 class="titulo mb-3">Tecnologias</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/html.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">1-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    HTML5
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/css.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">2-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    CSS
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/javascript.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">3-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    JavaScript
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/jquery.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">4-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    jQuery
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/bootstrap-stack.jpg" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">5-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    Bootstrap
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/sass.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">6-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    Sass
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/gulp.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">7-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    Gulp
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/less.png" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">8-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    Less
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <div class="card-item">
+                                <img class="w-100 d-block" src="img/grunt.jpg" alt="">
+                            </div>
+                            <div class="card-body text-bg-dark">
+                                <div class="card-title text-center">9-</div>
+                                <div class="card-subtitle text-center fw-bold">
+                                    Grunt
+                                </div>
+                                <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h3 class="text-center mt-3 mb-3 titulo">Contato</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 d-flex flex-column mb-3">
+                        <img class="w-98 d-block" src="https://placeholder.com/96x96" alt="">
+                        <h5 class="text-center">Tallyson Vieira Freitas</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, explicabo corporis! Recusandae consequuntur ipsam aliquam, iusto obcaecati culpa iure incidunt temporibus possimus sequi facere laboriosam veniam nam vitae esse quisquam.</p>
+                        <ul class="nav d-flex justify-content-around icones">
+                            <li class="nav-item">
+                                <a class="nav-item icon" href="https://www.instagram.com/tallysonfreits_/" target="_blank">
+                                    <img class="w-100 d-block" src="img/instagram.png" alt="">
+                                </a>
+                                <p>Instagram</p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-item icon" href="tallyson.eu@outlook.com" target="_blank">
+                                    <img class="w-100 d-block" src="img/email.png" alt="">
+                                </a>
+                                <p>Email</p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-item icon" href="https://github.com/TallysonFreitas" target="_blank">
+                                    <img class="w-100 d-block" src="img/github-sign.png" alt="">
+                                </a>
+                                <p>Github</p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-item icon" href="https://www.linkedin.com/in/tallyson-vieira-freitas-06a428207/" target="_blank">
+                                    <img class="w-100 d-block" src="img/linkedin.png" alt="">
+                                </a>
+                                <p>Linkedin</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 botao align-items-center d-flex justify-content-center flex-column">
+                        <div class="d-flex justify-content-center">
+                            <h5 class="titulo">
+                                Personalidade
+                            <h5>
+                        </div>
+                        <a class="botao-item fw-bold mb-3 p-2 text-center btn btn-sucess" href="">Sob Pressao</a>
+                        <a class="botao-item fw-bold mb-3 p-2 text-center btn btn-sucess" href="">Proatividade</a>
+                        <a class="botao-item fw-bold mb-3 p-2 text-center btn btn-sucess" href="">Comunicabilidade</a>
+                        <a class="botao-item fw-bold mb-3 p-2 text-center btn btn-sucess" href="">Bom-humor</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
     "></script>
