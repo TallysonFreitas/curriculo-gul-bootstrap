@@ -13,25 +13,25 @@ function compilaSass(){
         outputStyle:'compressed'
     }))
     .pipe(sourcemaps.write('./maps'))
-    .pipe(gulp.dest('./dist/styles'))
+    .pipe(gulp.dest('./dist/styles'));
 }
 
 function minimizarImg() {  
     return gulp.src('./src/img/*')
     .pipe(imageMin())
-    .pipe(gulp.dest('./dist/img'))
+    .pipe(gulp.dest('./dist/img'));
 }
 
 function comprimeJs() {  
     return gulp.src('./src/scripts/*.js')
     .pipe(uglify())
     .pipe(obfuscate())
-    .pipe(gulp.dest('./dist/scripts'))
+    .pipe(gulp.dest('./dist/scripts'));
 }
 
 function htmlmin(){
     return gulp.src('./src/index.html')
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./dist'));
 }
 
 exports.default = function () {  
@@ -42,5 +42,5 @@ exports.default = function () {
 }
 
 exports.build = function () {  
-    gulp.series(compilaSass,comprimeJs,htmlmin,minimizarImg)
+    gulp.parallel(compilaSass,comprimeJs,htmlmin,minimizarImg)
 }
