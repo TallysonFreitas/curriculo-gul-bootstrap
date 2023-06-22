@@ -40,3 +40,7 @@ exports.default = function () {
     gulp.watch('./src/index.html',{ignoreInitial:false},gulp.series(htmlmin))
     gulp.watch('./src/img/*',{ignoreInitial:false},gulp.series(minimizarImg))
 }
+
+exports.build = function () {  
+    gulp.series(compilaSass,comprimeJs,htmlmin,minimizarImg)
+}
